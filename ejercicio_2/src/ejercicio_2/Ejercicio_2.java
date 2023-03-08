@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ejercicio_2;
-
+import java.util.Scanner;
 /**
  *
  * @author Aaron
@@ -15,7 +15,10 @@ public class Ejercicio_2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+       Scanner entrada = new Scanner(System.in);
+       System.out.println("Ingresá tu nombre");
+       String nombre = entrada.nextLine();
+       System.out.println("Hola, "+nombre);
     }
     
 }
