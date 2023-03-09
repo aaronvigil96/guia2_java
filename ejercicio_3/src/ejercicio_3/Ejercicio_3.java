@@ -22,5 +22,6 @@ public class Ejercicio_3 {
         System.out.println(frase);
         frase = frase.toLowerCase();
         System.out.println(frase);
+        System.out.println("Hola");
     }
 }
